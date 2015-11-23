@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Title</key>
+		<string>Compare our current accounts</string>
+		<key>BackgroundColor</key>
+		<string>#034735</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>find a savings account for you</string>
+		<key>BackgroundColor</key>
+		<string>#034735</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Our mortgage lending rates</string>
+		<key>BackgroundColor</key>
+		<string>#034735</string>
+	</dict>
+	<dict>
+		<key>BackgroundColor</key>
+		<string>#034735</string>
+		<key>Title</key>
+		<string>Protecting my home</string>
+	</dict>
+	<dict>
+		<key>BackgroundColor</key>
+		<string>#034735</string>
+		<key>Title</key>
+		<string>Car &amp; boat loans</string>
+	</dict>
+	<dict>
+		<key>BackgroundColor</key>
+		<string>#034735</string>
+		<key>Title</key>
+		<string>Credit card interest rates</string>
+	</dict>
+	<dict>
+		<key>BackgroundColor</key>
+		<string>#034735</string>
+		<key>Title</key>
+		<string>Tell me about ISAs</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>PROD</string>
+		<key>retailUrl</key>
+		<string>https://www.halifax-online.co.uk/personal/logon/login.jsp?</string>
+		<key>businessUrl</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>PUT1</string>
+		<key>retailUrl</key>
+		<string>https://ibglxyput1a-hp.lloydstsb.co.uk/personal/logon/login.jsp?testenv=https://ibglxyput1s-hp.lloydstsb.co.uk/personal/login&amp;app=brapp&amp;WT.ac=HBRAPP</string>
+		<key>businessUrl</key>
+		<string>https://ibglxyput1a-hp.lloydstsb.co.uk/business/logon/login.jsp?testenv=https://ibglxyput1s-hp.lloydstsb.co.uk/business/login</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>PUT1 MULTI6</string>
+		<key>retailUrl</key>
+		<string>https://ibglxyput1multi6a-hp.test.lloydstsb.co.uk/personal/logon/login.jsp?testenv=https://ibglxyput1multi6a-hp.test.lloydstsb.co.uk/personal/login</string>
+		<key>businessUrl</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>PUT2</string>
+		<key>retailUrl</key>
+		<string>https://ibglxyput2a-hp.lloydstsb.co.uk/personal/logon/login.jsp?testenv=https://ibglxyput2s-hp.lloydstsb.co.uk/personal/login</string>
+		<key>businessUrl</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>PUT2 MULTI6</string>
+		<key>retailUrl</key>
+		<string>https://ibglxyput1multi6a-lp.test.lloydstsb.co.uk/personal/logon/login.jsp?testenv=https://ibglxyput1multi6a-lp.test.lloydstsb.co.uk/personal/login</string>
+		<key>businessUrl</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>SIT1</string>
+		<key>retailUrl</key>
+		<string>https://ibglxysit1a-hp.lloydstsb.co.uk/personal/logon/login.jsp?testenv=https://ibglxysit1s-hp.lloydstsb.co.uk/personal/login</string>
+		<key>businessUrl</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>SIT2.1</string>
+		<key>retailUrl</key>
+		<string>https://ibsit2m1a-hp.test.lloydsbanking.com/personal/logon/login.jsp?testenv=https://ibsit2m1a-hp.test.lloydsbanking.com/personal/login</string>
+		<key>businessUrl</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>SIT3</string>
+		<key>retailUrl</key>
+		<string>https://ibsit3-hp-apio.test.lloydstsb.co.uk/personal/logon/login.jsp?testenv=https://ibsit3-hp-apis.test.lloydstsb.co.uk/personal/login</string>
+		<key>businessUrl</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>SIT4</string>
+		<key>retailUrl</key>
+		<string>https://ibsit4-hp-apio.test.lloydstsb.co.uk/personal/logon/login.jsp?testenv=https://ibsit4-hp-apis.test.lloydstsb.co.uk/personal/login</string>
+		<key>businessUrl</key>
+		<string></string>
+	</dict>
+</array>
+</plist>

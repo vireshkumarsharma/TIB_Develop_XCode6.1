@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>   Benefits of             Internet Banking</string>
+		<key>subtitle</key>
+		<string>With Lloyds Bank Internet Banking your finances are at your fingertips</string>
+		<key>image</key>
+		<string>accounts_icon</string>
+		<key>bgColor</key>
+		<string>#DB4F69</string>
+		<key>Width</key>
+		<string>6</string>
+		<key>Height</key>
+		<string>6</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Ways to Access</string>
+		<key>subtitle</key>
+		<string></string>
+		<key>image</key>
+		<string>accounts_icon</string>
+		<key>bgColor</key>
+		<string>#347FB0</string>
+		<key>Width</key>
+		<string>3</string>
+		<key>Height</key>
+		<string>3</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Security</string>
+		<key>subtitle</key>
+		<string></string>
+		<key>image</key>
+		<string>padlock_logon</string>
+		<key>bgColor</key>
+		<string>#72A317</string>
+		<key>Width</key>
+		<string>3</string>
+		<key>Height</key>
+		<string>3</string>
+	</dict>
+</array>
+</plist>

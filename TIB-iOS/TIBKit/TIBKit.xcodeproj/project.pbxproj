@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A440C9F11BE1637F007F3A36 /* TIBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A440C9F01BE1637F007F3A36 /* TIBKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A440C9F81BE1637F007F3A36 /* TIBKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A440C9ED1BE1637F007F3A36 /* TIBKit.framework */; };
+		A440C9FD1BE1637F007F3A36 /* TIBKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A440C9FC1BE1637F007F3A36 /* TIBKitTests.m */; };
+		A440CAD61BE17EA2007F3A36 /* Log.h in Headers */ = {isa = PBXBuildFile; fileRef = A440CACC1BE17EA2007F3A36 /* Log.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A440CAD71BE17EA2007F3A36 /* Log.m in Sources */ = {isa = PBXBuildFile; fileRef = A440CACD1BE17EA2007F3A36 /* Log.m */; };
+		A4CA68711BEE2D6F00CB6D26 /* TIBBrandConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = A4CA686F1BEE2D6F00CB6D26 /* TIBBrandConstant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4CA68721BEE2D6F00CB6D26 /* TIBBrandConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CA68701BEE2D6F00CB6D26 /* TIBBrandConstant.m */; };
+		FF5DA4021BECA33E007B3EDD /* TIBSegmentControl.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5DA4001BECA33E007B3EDD /* TIBSegmentControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF5DA4031BECA33E007B3EDD /* TIBSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5DA4011BECA33E007B3EDD /* TIBSegmentControl.m */; };
+		FFF0AC491BEB239300EB6945 /* UINavigationBar+TIBNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = FFF0AC471BEB239300EB6945 /* UINavigationBar+TIBNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFF0AC4A1BEB239300EB6945 /* UINavigationBar+TIBNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF0AC481BEB239300EB6945 /* UINavigationBar+TIBNavigationBar.m */; };
+		FFF0AC4E1BEB25BE00EB6945 /* UIColor+Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = FFF0AC4C1BEB25BE00EB6945 /* UIColor+Utility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFF0AC4F1BEB25BE00EB6945 /* UIColor+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF0AC4D1BEB25BE00EB6945 /* UIColor+Utility.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A440C9F91BE1637F007F3A36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A440C9E41BE1637F007F3A36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A440C9EC1BE1637F007F3A36;
+			remoteInfo = TIBKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A440C9ED1BE1637F007F3A36 /* TIBKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TIBKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A440C9F01BE1637F007F3A36 /* TIBKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TIBKit.h; sourceTree = "<group>"; };
+		A440C9F21BE1637F007F3A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A440C9F71BE1637F007F3A36 /* TIBKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TIBKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A440C9FC1BE1637F007F3A36 /* TIBKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TIBKitTests.m; sourceTree = "<group>"; };
+		A440C9FE1BE1637F007F3A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A440CACC1BE17EA2007F3A36 /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
+		A440CACD1BE17EA2007F3A36 /* Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Log.m; sourceTree = "<group>"; };
+		A4CA686F1BEE2D6F00CB6D26 /* TIBBrandConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBBrandConstant.h; sourceTree = "<group>"; };
+		A4CA68701BEE2D6F00CB6D26 /* TIBBrandConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBBrandConstant.m; sourceTree = "<group>"; };
+		FF5DA4001BECA33E007B3EDD /* TIBSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBSegmentControl.h; sourceTree = "<group>"; };
+		FF5DA4011BECA33E007B3EDD /* TIBSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBSegmentControl.m; sourceTree = "<group>"; };
+		FFF0AC471BEB239300EB6945 /* UINavigationBar+TIBNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+TIBNavigationBar.h"; sourceTree = "<group>"; };
+		FFF0AC481BEB239300EB6945 /* UINavigationBar+TIBNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+TIBNavigationBar.m"; sourceTree = "<group>"; };
+		FFF0AC4C1BEB25BE00EB6945 /* UIColor+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utility.h"; sourceTree = "<group>"; };
+		FFF0AC4D1BEB25BE00EB6945 /* UIColor+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utility.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A440C9E91BE1637F007F3A36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A440C9F41BE1637F007F3A36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A440C9F81BE1637F007F3A36 /* TIBKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A440C9E31BE1637F007F3A36 = {
+			isa = PBXGroup;
+			children = (
+				A440C9EF1BE1637F007F3A36 /* TIBKit */,
+				A440C9FB1BE1637F007F3A36 /* TIBKitTests */,
+				A440C9EE1BE1637F007F3A36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A440C9EE1BE1637F007F3A36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A440C9ED1BE1637F007F3A36 /* TIBKit.framework */,
+				A440C9F71BE1637F007F3A36 /* TIBKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A440C9EF1BE1637F007F3A36 /* TIBKit */ = {
+			isa = PBXGroup;
+			children = (
+				A4CA686E1BEE2D6F00CB6D26 /* Branding */,
+				FF5DA3F61BEC9D9D007B3EDD /* CustomSegmentControlView */,
+				FFF0AC4B1BEB25BE00EB6945 /* Utility */,
+				FFF0AC461BEB239300EB6945 /* NavigationBar */,
+				A440C9F01BE1637F007F3A36 /* TIBKit.h */,
+				A440C9F21BE1637F007F3A36 /* Info.plist */,
+				A440CACB1BE17EA2007F3A36 /* Logging */,
+			);
+			path = TIBKit;
+			sourceTree = "<group>";
+		};
+		A440C9FB1BE1637F007F3A36 /* TIBKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				A440C9FC1BE1637F007F3A36 /* TIBKitTests.m */,
+				A440C9FE1BE1637F007F3A36 /* Info.plist */,
+			);
+			path = TIBKitTests;
+			sourceTree = "<group>";
+		};
+		A440CACB1BE17EA2007F3A36 /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				A440CACC1BE17EA2007F3A36 /* Log.h */,
+				A440CACD1BE17EA2007F3A36 /* Log.m */,
+			);
+			path = Logging;
+			sourceTree = "<group>";
+		};
+		A4CA686E1BEE2D6F00CB6D26 /* Branding */ = {
+			isa = PBXGroup;
+			children = (
+				A4CA686F1BEE2D6F00CB6D26 /* TIBBrandConstant.h */,
+				A4CA68701BEE2D6F00CB6D26 /* TIBBrandConstant.m */,
+			);
+			path = Branding;
+			sourceTree = "<group>";
+		};
+		FF5DA3F61BEC9D9D007B3EDD /* CustomSegmentControlView */ = {
+			isa = PBXGroup;
+			children = (
+				FF5DA4001BECA33E007B3EDD /* TIBSegmentControl.h */,
+				FF5DA4011BECA33E007B3EDD /* TIBSegmentControl.m */,
+			);
+			path = CustomSegmentControlView;
+			sourceTree = "<group>";
+		};
+		FFF0AC461BEB239300EB6945 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				FFF0AC471BEB239300EB6945 /* UINavigationBar+TIBNavigationBar.h */,
+				FFF0AC481BEB239300EB6945 /* UINavigationBar+TIBNavigationBar.m */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		FFF0AC4B1BEB25BE00EB6945 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				FFF0AC4C1BEB25BE00EB6945 /* UIColor+Utility.h */,
+				FFF0AC4D1BEB25BE00EB6945 /* UIColor+Utility.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A440C9EA1BE1637F007F3A36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A440C9F11BE1637F007F3A36 /* TIBKit.h in Headers */,
+				FF5DA4021BECA33E007B3EDD /* TIBSegmentControl.h in Headers */,
+				A440CAD61BE17EA2007F3A36 /* Log.h in Headers */,
+				FFF0AC491BEB239300EB6945 /* UINavigationBar+TIBNavigationBar.h in Headers */,
+				A4CA68711BEE2D6F00CB6D26 /* TIBBrandConstant.h in Headers */,
+				FFF0AC4E1BEB25BE00EB6945 /* UIColor+Utility.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A440C9EC1BE1637F007F3A36 /* TIBKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A440CA011BE1637F007F3A36 /* Build configuration list for PBXNativeTarget "TIBKit" */;
+			buildPhases = (
+				A440C9E81BE1637F007F3A36 /* Sources */,
+				A440C9E91BE1637F007F3A36 /* Frameworks */,
+				A440C9EA1BE1637F007F3A36 /* Headers */,
+				A440C9EB1BE1637F007F3A36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TIBKit;
+			productName = TIBKit;
+			productReference = A440C9ED1BE1637F007F3A36 /* TIBKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A440C9F61BE1637F007F3A36 /* TIBKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A440CA041BE1637F007F3A36 /* Build configuration list for PBXNativeTarget "TIBKitTests" */;
+			buildPhases = (
+				A440C9F31BE1637F007F3A36 /* Sources */,
+				A440C9F41BE1637F007F3A36 /* Frameworks */,
+				A440C9F51BE1637F007F3A36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A440C9FA1BE1637F007F3A36 /* PBXTargetDependency */,
+			);
+			name = TIBKitTests;
+			productName = TIBKitTests;
+			productReference = A440C9F71BE1637F007F3A36 /* TIBKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A440C9E41BE1637F007F3A36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Rupendra;
+				TargetAttributes = {
+					A440C9EC1BE1637F007F3A36 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					A440C9F61BE1637F007F3A36 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = A440C9E71BE1637F007F3A36 /* Build configuration list for PBXProject "TIBKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A440C9E31BE1637F007F3A36;
+			productRefGroup = A440C9EE1BE1637F007F3A36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A440C9EC1BE1637F007F3A36 /* TIBKit */,
+				A440C9F61BE1637F007F3A36 /* TIBKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A440C9EB1BE1637F007F3A36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A440C9F51BE1637F007F3A36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A440C9E81BE1637F007F3A36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A440CAD71BE17EA2007F3A36 /* Log.m in Sources */,
+				FF5DA4031BECA33E007B3EDD /* TIBSegmentControl.m in Sources */,
+				FFF0AC4F1BEB25BE00EB6945 /* UIColor+Utility.m in Sources */,
+				A4CA68721BEE2D6F00CB6D26 /* TIBBrandConstant.m in Sources */,
+				FFF0AC4A1BEB239300EB6945 /* UINavigationBar+TIBNavigationBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A440C9F31BE1637F007F3A36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A440C9FD1BE1637F007F3A36 /* TIBKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A440C9FA1BE1637F007F3A36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A440C9EC1BE1637F007F3A36 /* TIBKit */;
+			targetProxy = A440C9F91BE1637F007F3A36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A440C9FF1BE1637F007F3A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A440CA001BE1637F007F3A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A440CA021BE1637F007F3A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = TIBKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lloyds.bank.TIBKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A440CA031BE1637F007F3A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = TIBKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lloyds.bank.TIBKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A440CA051BE1637F007F3A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TIBKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lloyds.bank.TIBKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A440CA061BE1637F007F3A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TIBKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lloyds.bank.TIBKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A440C9E71BE1637F007F3A36 /* Build configuration list for PBXProject "TIBKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A440C9FF1BE1637F007F3A36 /* Debug */,
+				A440CA001BE1637F007F3A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A440CA011BE1637F007F3A36 /* Build configuration list for PBXNativeTarget "TIBKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A440CA021BE1637F007F3A36 /* Debug */,
+				A440CA031BE1637F007F3A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A440CA041BE1637F007F3A36 /* Build configuration list for PBXNativeTarget "TIBKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A440CA051BE1637F007F3A36 /* Debug */,
+				A440CA061BE1637F007F3A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A440C9E41BE1637F007F3A36 /* Project object */;
+}

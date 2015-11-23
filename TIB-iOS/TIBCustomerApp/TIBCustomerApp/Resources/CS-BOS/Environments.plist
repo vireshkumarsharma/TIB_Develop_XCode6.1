@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>PROD</string>
+		<key>retailUrl</key>
+		<string>https://online.bankofscotland.co.uk/personal/logon/login.jsp?</string>
+		<key>businessUrl</key>
+		<string>https://onlinebusiness.lloydsbank.co.uk/business/logon/login.jsp?</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>PUT1</string>
+		<key>retailUrl</key>
+		<string>https://ibglxyput1a-bp.lloydstsb.co.uk/personal/logon/login.jsp?testenv=https://ibglxyput1s-bp.lloydstsb.co.uk/personal/login</string>
+		<key>businessUrl</key>
+		<string>https://ibglxyput1a-bp.lloydstsb.co.uk/business/logon/login.jsp?testenv=https://ibglxyput1s-bp.lloydstsb.co.uk/business/login</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>PUT1 MULTI6</string>
+		<key>retailUrl</key>
+		<string>https://ibglxyput1multi6a-bp.test.lloydstsb.co.uk/personal/logon/login.jsp?testenv=https://ibglxyput1multi6a-bp.test.lloydstsb.co.uk/personal/login</string>
+		<key>businessUrl</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>SIT1</string>
+		<key>retailUrl</key>
+		<string>https://ibglxysit1a-bp.lloydstsb.co.uk/personal/logon/login.jsp?testenv=https://ibglxysit1s-bp.lloydstsb.co.uk/personal/login</string>
+		<key>New item</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>SIT2.1</string>
+		<key>retailUrl</key>
+		<string>https://ibsit2m1a-bp.test.lloydsbanking.com/personal/logon/login.jsp?testenv=https://ibsit2m1a-bp.test.lloydsbanking.com/personal/login</string>
+		<key>New item</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>SIT3</string>
+		<key>retailUrl</key>
+		<string>https://ibsit3-bp-apio.test.lloydstsb.co.uk/personal/logon/login.jsp?testenv=https://ibsit3-bp-apis.test.lloydstsb.co.uk/personal/login</string>
+		<key>businessUrl</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>SIT4</string>
+		<key>retailUrl</key>
+		<string>https://ibsit4-bp-apio.test.lloydstsb.co.uk/personal/logon/login.jsp?testenv=https://ibsit4-bp-apis.test.lloydstsb.co.uk/personal/login</string>
+		<key>businessUrl</key>
+		<string></string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.20" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.16"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Security Page View Controller-->
+        <scene sceneID="d7b-Nv-PmG">
+            <objects>
+                <viewController storyboardIdentifier="TESTsecurity" id="kHQ-4r-t1S" customClass="CSSecurityPageViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ffs-CV-s1c"/>
+                        <viewControllerLayoutGuide type="bottom" id="wBJ-UN-IKR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uXx-YF-NpE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6uy-uK-Mpu">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Guaranteeimage" translatesAutoresizingMaskIntoConstraints="NO" id="kNC-6J-lHK">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="326" id="3hG-uW-fOt">
+                                        <variation key="widthClass=regular" constant="374"/>
+                                    </constraint>
+                                    <constraint firstAttribute="bottom" secondItem="kNC-6J-lHK" secondAttribute="bottom" id="8l6-oh-Waz"/>
+                                    <constraint firstItem="kNC-6J-lHK" firstAttribute="leading" secondItem="6uy-uK-Mpu" secondAttribute="leading" id="JBP-2E-pcD"/>
+                                    <constraint firstItem="kNC-6J-lHK" firstAttribute="top" secondItem="6uy-uK-Mpu" secondAttribute="top" id="K6Y-qo-dD6"/>
+                                    <constraint firstAttribute="trailing" secondItem="kNC-6J-lHK" secondAttribute="trailing" id="LYr-Q2-Hij"/>
+                                    <constraint firstAttribute="height" constant="471" id="OhA-Ci-KgU">
+                                        <variation key="widthClass=regular" constant="500"/>
+                                    </constraint>
+                                    <constraint firstAttribute="trailing" secondItem="kNC-6J-lHK" secondAttribute="trailing" id="Udi-QV-lsU"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="kNC-6J-lHK"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <exclude reference="3hG-uW-fOt"/>
+                                        <exclude reference="OhA-Ci-KgU"/>
+                                        <exclude reference="8l6-oh-Waz"/>
+                                        <exclude reference="JBP-2E-pcD"/>
+                                        <exclude reference="K6Y-qo-dD6"/>
+                                        <exclude reference="LYr-Q2-Hij"/>
+                                        <exclude reference="Udi-QV-lsU"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=regular">
+                                    <mask key="subviews">
+                                        <include reference="kNC-6J-lHK"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <include reference="3hG-uW-fOt"/>
+                                        <include reference="OhA-Ci-KgU"/>
+                                        <include reference="8l6-oh-Waz"/>
+                                        <include reference="JBP-2E-pcD"/>
+                                        <include reference="K6Y-qo-dD6"/>
+                                        <include reference="LYr-Q2-Hij"/>
+                                        <include reference="Udi-QV-lsU"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lUt-Xv-hpf">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor amet consectetur" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hsR-zW-cE1">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=regular" fixedFrame="YES">
+                                            <rect key="frame" x="15" y="8" width="309" height="31"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cUr-x0-v2T">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <attributedString key="attributedText">
+                                            <fragment>
+                                                <string key="content">We protect you with safeguards that meet industry standards, and we guarantee to refund your money in the unlikely event you experience fraud with our internet Banking Service - as long as have been careful, for example, by taking reasonable steps to keep your security information safe:</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=regular" fixedFrame="YES">
+                                            <rect key="frame" x="18" y="58" width="494" height="138"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="35Q-s9-Hdb">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <attributedString key="attributedText">
+                                            <fragment>
+                                                <string key="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=regular" fixedFrame="YES">
+                                            <rect key="frame" x="18" y="204" width="466" height="103"/>
+                                        </variation>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dKN-PF-Ltf">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <state key="normal" image="rightbutton.png"/>
+                                        <variation key="widthClass=regular" fixedFrame="YES">
+                                            <rect key="frame" x="15" y="315" width="30" height="26"/>
+                                        </variation>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MOR-H2-DuI">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <state key="normal" image="rightbutton.png"/>
+                                        <variation key="widthClass=regular" fixedFrame="YES">
+                                            <rect key="frame" x="15" y="383" width="30" height="26"/>
+                                        </variation>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Wx-T8-PKR">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <state key="normal" image="rightbutton.png"/>
+                                        <variation key="widthClass=regular" fixedFrame="YES">
+                                            <rect key="frame" x="15" y="435" width="30" height="26"/>
+                                        </variation>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ugw-BJ-Lch">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Do not let anyone watch you enter your security details and log off after each Online Banking session">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=regular" fixedFrame="YES">
+                                            <rect key="frame" x="47" y="377" width="500" height="50"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kmL-PG-RkU">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Carry out regular virus checks on your devices and have the latest operating system and web browser installed.">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=regular" fixedFrame="YES">
+                                            <rect key="frame" x="47" y="440" width="430" height="46"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wwX-uY-Hf8">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <attributedString key="attributedText">
+                                            <fragment>
+                                                <string key="content">Keep your password secure and do not let anyone else make use of your security details, even if they share a joint account with you.</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=regular" fixedFrame="YES">
+                                            <rect key="frame" x="47" y="310" width="500" height="68"/>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.6588235294" green="0.71764705880000002" blue="0.69411764710000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="hsR-zW-cE1"/>
+                                        <exclude reference="cUr-x0-v2T"/>
+                                        <exclude reference="35Q-s9-Hdb"/>
+                                        <exclude reference="dKN-PF-Ltf"/>
+                                        <exclude reference="MOR-H2-DuI"/>
+                                        <exclude reference="9Wx-T8-PKR"/>
+                                        <exclude reference="Ugw-BJ-Lch"/>
+                                        <exclude reference="kmL-PG-RkU"/>
+                                        <exclude reference="wwX-uY-Hf8"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=regular">
+                                    <mask key="subviews">
+                                        <include reference="hsR-zW-cE1"/>
+                                        <include reference="cUr-x0-v2T"/>
+                                        <include reference="35Q-s9-Hdb"/>
+                                        <include reference="dKN-PF-Ltf"/>
+                                        <include reference="MOR-H2-DuI"/>
+                                        <include reference="9Wx-T8-PKR"/>
+                                        <include reference="Ugw-BJ-Lch"/>
+                                        <include reference="kmL-PG-RkU"/>
+                                        <include reference="wwX-uY-Hf8"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Security" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hcg-RN-ZzK">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="93" id="9Ze-1X-skJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="9Ze-1X-skJ"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="9Ze-1X-skJ"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="HJs-ti-Yti">
+                                <rect key="frame" x="-60" y="-14" width="121" height="29"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <segments>
+                                    <segment title="Our Guarantee"/>
+                                    <segment title="Staying Secure Online"/>
+                                    <segment title="Things to look for"/>
+                                </segments>
+                                <color key="tintColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                <connections>
+                                    <action selector="segmentcontrolpressed:" destination="kHQ-4r-t1S" eventType="valueChanged" id="fe9-Nz-zBz"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="6uy-uK-Mpu" firstAttribute="top" secondItem="hcg-RN-ZzK" secondAttribute="bottom" constant="17" id="3lj-rU-Vl0"/>
+                            <constraint firstItem="6uy-uK-Mpu" firstAttribute="leading" secondItem="uXx-YF-NpE" secondAttribute="leadingMargin" constant="19" id="Chw-y0-q9j">
+                                <variation key="widthClass=regular" constant="16"/>
+                            </constraint>
+                            <constraint firstItem="lUt-Xv-hpf" firstAttribute="leading" secondItem="6uy-uK-Mpu" secondAttribute="trailing" constant="1" id="Dcf-da-ZD6"/>
+                            <constraint firstItem="kNC-6J-lHK" firstAttribute="height" secondItem="lUt-Xv-hpf" secondAttribute="height" id="MT5-Jp-D4G"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="HJs-ti-Yti" secondAttribute="trailing" constant="15" id="NjF-VX-tzY"/>
+                            <constraint firstItem="HJs-ti-Yti" firstAttribute="top" secondItem="Ffs-CV-s1c" secondAttribute="bottom" constant="-7" id="ZJQ-Dh-Lk4">
+                                <variation key="widthClass=regular" constant="0.0"/>
+                            </constraint>
+                            <constraint firstAttribute="trailingMargin" secondItem="lUt-Xv-hpf" secondAttribute="trailing" constant="15" id="a80-N8-zzO"/>
+                            <constraint firstItem="hcg-RN-ZzK" firstAttribute="leading" secondItem="uXx-YF-NpE" secondAttribute="leadingMargin" constant="16" id="aAg-h7-Cq2"/>
+                            <constraint firstItem="wBJ-UN-IKR" firstAttribute="top" secondItem="6uy-uK-Mpu" secondAttribute="bottom" constant="46" id="aTA-D6-DCc">
+                                <variation key="widthClass=regular" constant="42"/>
+                            </constraint>
+                            <constraint firstItem="wBJ-UN-IKR" firstAttribute="top" secondItem="kNC-6J-lHK" secondAttribute="bottom" constant="42" id="beb-qL-PEr"/>
+                            <constraint firstItem="hcg-RN-ZzK" firstAttribute="top" secondItem="Ffs-CV-s1c" secondAttribute="bottom" id="gFK-ut-3tM"/>
+                            <constraint firstItem="wBJ-UN-IKR" firstAttribute="top" secondItem="lUt-Xv-hpf" secondAttribute="bottom" constant="42" id="hlH-RI-8h3"/>
+                            <constraint firstItem="lUt-Xv-hpf" firstAttribute="top" secondItem="6uy-uK-Mpu" secondAttribute="top" id="vpB-9D-oNx"/>
+                            <constraint firstItem="kNC-6J-lHK" firstAttribute="leading" secondItem="uXx-YF-NpE" secondAttribute="leadingMargin" constant="16" id="wP1-dy-pQF"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="6uy-uK-Mpu"/>
+                                <exclude reference="lUt-Xv-hpf"/>
+                                <exclude reference="hcg-RN-ZzK"/>
+                                <exclude reference="HJs-ti-Yti"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="aAg-h7-Cq2"/>
+                                <exclude reference="gFK-ut-3tM"/>
+                                <exclude reference="aTA-D6-DCc"/>
+                                <exclude reference="beb-qL-PEr"/>
+                                <exclude reference="hlH-RI-8h3"/>
+                                <exclude reference="NjF-VX-tzY"/>
+                                <exclude reference="ZJQ-Dh-Lk4"/>
+                                <exclude reference="3lj-rU-Vl0"/>
+                                <exclude reference="Chw-y0-q9j"/>
+                                <exclude reference="MT5-Jp-D4G"/>
+                                <exclude reference="wP1-dy-pQF"/>
+                                <exclude reference="Dcf-da-ZD6"/>
+                                <exclude reference="a80-N8-zzO"/>
+                                <exclude reference="vpB-9D-oNx"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="6uy-uK-Mpu"/>
+                                <include reference="lUt-Xv-hpf"/>
+                                <include reference="hcg-RN-ZzK"/>
+                                <include reference="HJs-ti-Yti"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="aAg-h7-Cq2"/>
+                                <include reference="gFK-ut-3tM"/>
+                                <include reference="aTA-D6-DCc"/>
+                                <include reference="beb-qL-PEr"/>
+                                <include reference="hlH-RI-8h3"/>
+                                <include reference="NjF-VX-tzY"/>
+                                <include reference="ZJQ-Dh-Lk4"/>
+                                <include reference="3lj-rU-Vl0"/>
+                                <include reference="Chw-y0-q9j"/>
+                                <include reference="MT5-Jp-D4G"/>
+                                <include reference="wP1-dy-pQF"/>
+                                <include reference="Dcf-da-ZD6"/>
+                                <include reference="a80-N8-zzO"/>
+                                <include reference="vpB-9D-oNx"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xha-dN-hb2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="232" y="208"/>
+        </scene>
+        <!--Staying Secure Online-->
+        <scene sceneID="KYW-AF-T1x">
+            <objects>
+                <viewController storyboardIdentifier="TESTSECURE" id="cGM-pd-V4H" customClass="CSStayingSecureOnline" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7qH-4c-zZJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="xIj-Bf-3Or"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="Staysecure" id="4at-5o-8Ga">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="jSF-rL-gf6">
+                                <rect key="frame" x="-60" y="-14" width="121" height="29"/>
+                                <segments>
+                                    <segment title="Our Guarantee"/>
+                                    <segment title="Staying Secure Online"/>
+                                    <segment title="Things to look for"/>
+                                </segments>
+                                <color key="tintColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Security" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S4i-7Y-Wtb">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="jSF-rL-gf6" firstAttribute="top" secondItem="7qH-4c-zZJ" secondAttribute="bottom" constant="8" id="Kuj-yL-4vl"/>
+                            <constraint firstItem="S4i-7Y-Wtb" firstAttribute="top" secondItem="7qH-4c-zZJ" secondAttribute="bottom" constant="10" id="ML7-pE-c5C"/>
+                            <constraint firstItem="jSF-rL-gf6" firstAttribute="leading" secondItem="S4i-7Y-Wtb" secondAttribute="trailing" constant="190" id="OtC-4d-x8g"/>
+                            <constraint firstItem="S4i-7Y-Wtb" firstAttribute="leading" secondItem="4at-5o-8Ga" secondAttribute="leadingMargin" constant="15" id="VS0-BR-eCZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jSF-rL-gf6" secondAttribute="trailing" id="hGM-I0-ARp"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="jSF-rL-gf6"/>
+                                <exclude reference="S4i-7Y-Wtb"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="ML7-pE-c5C"/>
+                                <exclude reference="VS0-BR-eCZ"/>
+                                <exclude reference="Kuj-yL-4vl"/>
+                                <exclude reference="OtC-4d-x8g"/>
+                                <exclude reference="hGM-I0-ARp"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="jSF-rL-gf6"/>
+                                <include reference="S4i-7Y-Wtb"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="ML7-pE-c5C"/>
+                                <include reference="VS0-BR-eCZ"/>
+                                <include reference="Kuj-yL-4vl"/>
+                                <include reference="OtC-4d-x8g"/>
+                                <include reference="hGM-I0-ARp"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x6C-36-8Wc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1097.25" y="308"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Guaranteeimage" width="375" height="454"/>
+        <image name="rightbutton.png" width="30" height="26"/>
+    </resources>
+</document>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Title</key>
+		<string>Check my balance &amp; statement</string>
+		<key>BackgroundColor</key>
+		<string>#034735</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Pay a bill</string>
+		<key>BackgroundColor</key>
+		<string>#034735</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Transfer money between accounts</string>
+		<key>BackgroundColor</key>
+		<string>#034735</string>
+	</dict>
+	<dict>
+		<key>BackgroundColor</key>
+		<string>#034735</string>
+		<key>Title</key>
+		<string>Advise that I&apos;m going abroad</string>
+	</dict>
+	<dict>
+		<key>BackgroundColor</key>
+		<string>#034735</string>
+		<key>Title</key>
+		<string>Get exclusive offers</string>
+	</dict>
+	<dict>
+		<key>BackgroundColor</key>
+		<string>#034735</string>
+		<key>Title</key>
+		<string>Pay my friend</string>
+	</dict>
+	<dict>
+		<key>BackgroundColor</key>
+		<string>#034735</string>
+		<key>Title</key>
+		<string>Extend my overdraft</string>
+	</dict>
+	<dict>
+		<key>BackgroundColor</key>
+		<string>#034735</string>
+		<key>Title</key>
+		<string>Locate nearby ATM and Branches</string>
+	</dict>
+</array>
+</plist>

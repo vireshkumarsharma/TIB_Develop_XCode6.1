@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>PROD</string>
+		<key>retailUrl</key>
+		<string>https://online.lloydsbank.co.uk/personal/logon/login.jsp?</string>
+		<key>businessUrl</key>
+		<string>https://onlinebusiness.lloydsbank.co.uk/business/logon/login.jsp</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>PUT1</string>
+		<key>retailUrl</key>
+		<string>https://ibglxyput1a-lp.lloydstsb.co.uk/personal/logon/login.jsp?testenv=https://ibglxyput1s-lp.lloydstsb.co.uk/personal/login</string>
+		<key>businessUrl</key>
+		<string>https://ibglxyput1a-lp.lloydstsb.co.uk/business/logon/login.jsp?testenv=https://ibglxyput1s-lp.lloydstsb.co.uk/business/login</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>PUT1 MULTI6</string>
+		<key>retailUrl</key>
+		<string>https://ibglxyput1multi6a-lp.test.lloydstsb.co.uk/personal/logon/login.jsp?testenv=https://ibglxyput1multi6a-lp.test.lloydstsb.co.uk/personal/login</string>
+		<key>businessUrl</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>PUT2</string>
+		<key>retailUrl</key>
+		<string>https://ibglxyput2a-lp.lloydstsb.co.uk/personal/logon/login.jsp?testenv=https://ibglxyput2s-lp.lloydstsb.co.uk/personal/login</string>
+		<key>businessUrl</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>SIT2.1</string>
+		<key>retailUrl</key>
+		<string>https://ibsit2m1a-bp.test.lloydsbanking.com/personal/logon/login.jsp?testenv=https://ibsit2m1a-bp.test.lloydsbanking.com/personal/login</string>
+		<key>businessUrl</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>SIT3</string>
+		<key>retailUrl</key>
+		<string>https://ibsit3-lp-apio.test.lloydstsb.co.uk/personal/logon/login.jsp?testenv=https://ibsit3-lp-apis.test.lloydstsb.co.uk/personal/login</string>
+		<key>businessUrl</key>
+		<string></string>
+	</dict>
+</array>
+</plist>

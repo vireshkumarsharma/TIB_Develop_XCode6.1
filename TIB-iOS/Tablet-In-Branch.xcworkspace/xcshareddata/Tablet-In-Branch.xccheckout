@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8CA59831-44CD-4801-9086-F740C6B2A625</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Tablet-In-Branch</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>140569B858E23FE828787BD8EDD85BF65D0D76C9</key>
+		<string>https://github.com/LimeCordial/BranchTablet-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TIB-iOS/Tablet-In-Branch.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>140569B858E23FE828787BD8EDD85BF65D0D76C9</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/LimeCordial/BranchTablet-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>140569B858E23FE828787BD8EDD85BF65D0D76C9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>140569B858E23FE828787BD8EDD85BF65D0D76C9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BranchTablet-TIB-ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>

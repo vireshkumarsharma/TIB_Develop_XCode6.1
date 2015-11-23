@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.20" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.16"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Internet Banking View Controller-->
+        <scene sceneID="BeI-nH-BWS">
+            <objects>
+                <viewController restorationIdentifier="CSInternetBankingViewController" storyboardIdentifier="CSInternetBankingViewController" id="6la-Av-ywo" customClass="CSInternetBankingViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ndE-SH-56g"/>
+                        <viewControllerLayoutGuide type="bottom" id="h8J-7U-EsM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SKg-EY-ZPB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S66-7Q-1t7" customClass="TIBSegmentControl">
+                                <rect key="frame" x="153" y="36" width="381" height="53"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="MbH-fo-6of"/>
+                                    <constraint firstAttribute="width" constant="381" id="woi-le-8nh"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" text="Benefits of IB" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UL1-6K-MVC">
+                                <rect key="frame" x="52" y="36" width="217" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="217" id="OXs-tu-win"/>
+                                    <constraint firstAttribute="height" constant="53" id="U2j-Bg-Yic"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="23"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92156862745098034" green="0.9137254901960784" blue="0.90196078431372551" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="S66-7Q-1t7" secondAttribute="trailing" constant="46" id="6bs-wA-R6z"/>
+                            <constraint firstItem="S66-7Q-1t7" firstAttribute="top" secondItem="ndE-SH-56g" secondAttribute="bottom" constant="16" id="PPB-AC-Aih"/>
+                            <constraint firstItem="UL1-6K-MVC" firstAttribute="top" secondItem="ndE-SH-56g" secondAttribute="bottom" constant="16" id="YtO-wr-MQE"/>
+                            <constraint firstItem="UL1-6K-MVC" firstAttribute="leading" secondItem="SKg-EY-ZPB" secondAttribute="leadingMargin" constant="32" id="cny-9J-Lhb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="segmentControl" destination="S66-7Q-1t7" id="eUf-cC-nas"/>
+                        <outlet property="widthConstraint" destination="woi-le-8nh" id="rUK-f9-h3e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y17-vh-h2T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="356" y="75"/>
+        </scene>
+    </scenes>
+</document>

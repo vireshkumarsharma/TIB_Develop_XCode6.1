@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  TIBCustomerApp
+
+  Created by Mobile Developer Lloyds Bank on 29/10/2015.
+  Copyright © 2015 Rupendra. All rights reserved.
+*/
+
+//WELCOME SCREEN
+
+"Web-Navigation-Title" = "Bank of Scotland";
+"btn_Personal"    = "Personal";
+"btn_Business"    = "Business";
+"IB_Title"        = "Our Digital Services";
+"Products_Title"  = "Products & Services";
+"Navigation_Title"= "BOS";
+"Navigation_LoginBtn" = "Log on";
+"Navigation_SendMoreInfo"= "Send more info";
+"Navigation_BackBtn"="Back";
+"label_Title1"     = "HOW CAN";
+"label_Title2"     = "WE HELP YOU?";
+"label_Title3"     = "Select an option below to get started";
+

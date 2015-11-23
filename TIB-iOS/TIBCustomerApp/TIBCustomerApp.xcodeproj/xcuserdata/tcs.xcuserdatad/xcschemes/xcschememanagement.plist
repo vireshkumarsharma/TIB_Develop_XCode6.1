@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CS-BOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>CS-Halifax.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>CS-Lloyds.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>TIBCustomerAppTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>TIBCustomerAppUITests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A440CA671BE16446007F3A36</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A440CA721BE16446007F3A36</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A4CA67C11BEE225F00CB6D26</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A4CA67F91BEE227100CB6D26</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A4CA68311BEE227B00CB6D26</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

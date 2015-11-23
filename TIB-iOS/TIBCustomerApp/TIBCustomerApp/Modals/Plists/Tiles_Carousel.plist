@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Current  Accounts</string>
+		<key>subtitle</key>
+		<string>Internet Banking</string>
+		<key>image</key>
+		<string>accounts_icon</string>
+		<key>bgColor</key>
+		<string>#74EC62</string>
+		<key>Width</key>
+		<string>8</string>
+		<key>Height</key>
+		<string>8</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Credit Cards</string>
+		<key>subtitle</key>
+		<string>Internet Banking</string>
+		<key>image</key>
+		<string>card_icon</string>
+		<key>bgColor</key>
+		<string>#18A634</string>
+		<key>Width</key>
+		<string>8</string>
+		<key>Height</key>
+		<string>14</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Savings</string>
+		<key>subtitle</key>
+		<string>Internet Banking</string>
+		<key>image</key>
+		<string>accounts_icon</string>
+		<key>bgColor</key>
+		<string>#C94F4B</string>
+		<key>Width</key>
+		<string>8</string>
+		<key>Height</key>
+		<string>12</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Mortgages</string>
+		<key>subtitle</key>
+		<string>Internet Banking</string>
+		<key>image</key>
+		<string>icon_home_hit</string>
+		<key>bgColor</key>
+		<string>#5898E6</string>
+		<key>Width</key>
+		<string>8</string>
+		<key>Height</key>
+		<string>12</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Loans</string>
+		<key>subtitle</key>
+		<string>Internet Banking</string>
+		<key>image</key>
+		<string>button-product-home</string>
+		<key>bgColor</key>
+		<string>#454BE3</string>
+		<key>Width</key>
+		<string>8</string>
+		<key>Height</key>
+		<string>12</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Insurance</string>
+		<key>subtitle</key>
+		<string>Internet Banking</string>
+		<key>image</key>
+		<string>accounts_icon</string>
+		<key>bgColor</key>
+		<string>#A4A4A4</string>
+		<key>Width</key>
+		<string>8</string>
+		<key>Height</key>
+		<string>12</string>
+	</dict>
+</array>
+</plist>

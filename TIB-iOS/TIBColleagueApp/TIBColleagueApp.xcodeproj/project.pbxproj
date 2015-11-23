@@ -1,0 +1,996 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F91E1851BF3509F00C06009 /* PowaPINDriver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F91E1821BF3509F00C06009 /* PowaPINDriver.framework */; };
+		4F91E1861BF3509F00C06009 /* PowaPINDriver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F91E1821BF3509F00C06009 /* PowaPINDriver.framework */; };
+		4F91E1871BF3509F00C06009 /* PowaPINDriver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F91E1821BF3509F00C06009 /* PowaPINDriver.framework */; };
+		4F91E1891BF3509F00C06009 /* PowaPINSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F91E1831BF3509F00C06009 /* PowaPINSDK.framework */; };
+		4F91E18A1BF3509F00C06009 /* PowaPINSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F91E1831BF3509F00C06009 /* PowaPINSDK.framework */; };
+		4F91E18B1BF3509F00C06009 /* PowaPINSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F91E1831BF3509F00C06009 /* PowaPINSDK.framework */; };
+		4F91E1991BF3927800C06009 /* Branding.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F91E1971BF3927800C06009 /* Branding.m */; };
+		4F91E19A1BF3927800C06009 /* Branding.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F91E1971BF3927800C06009 /* Branding.m */; };
+		4F91E19B1BF3927800C06009 /* Branding.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F91E1971BF3927800C06009 /* Branding.m */; };
+		4FB4A19C1BF4A42C007A19FB /* CLAuthenticationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4A1971BF4A42C007A19FB /* CLAuthenticationViewController.m */; };
+		4FB4A19D1BF4A42C007A19FB /* CLAuthenticationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4A1971BF4A42C007A19FB /* CLAuthenticationViewController.m */; };
+		4FB4A19E1BF4A42C007A19FB /* CLAuthenticationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4A1971BF4A42C007A19FB /* CLAuthenticationViewController.m */; };
+		4FB4A1A01BF4A42C007A19FB /* CLPowaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4A1991BF4A42C007A19FB /* CLPowaViewController.m */; };
+		4FB4A1A11BF4A42C007A19FB /* CLPowaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4A1991BF4A42C007A19FB /* CLPowaViewController.m */; };
+		4FB4A1A21BF4A42C007A19FB /* CLPowaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4A1991BF4A42C007A19FB /* CLPowaViewController.m */; };
+		4FB4A1A41BF4A42C007A19FB /* ColleagueApp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB4A19A1BF4A42C007A19FB /* ColleagueApp.storyboard */; };
+		4FB4A1A51BF4A42C007A19FB /* ColleagueApp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB4A19A1BF4A42C007A19FB /* ColleagueApp.storyboard */; };
+		4FB4A1A61BF4A42C007A19FB /* ColleagueApp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB4A19A1BF4A42C007A19FB /* ColleagueApp.storyboard */; };
+		4FC0589E1BF20834000E0F30 /* PPMockServerApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC0589C1BF20834000E0F30 /* PPMockServerApp.m */; };
+		4FC0589F1BF20834000E0F30 /* PPMockServerApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC0589C1BF20834000E0F30 /* PPMockServerApp.m */; };
+		4FC058A01BF20834000E0F30 /* PPMockServerApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC0589C1BF20834000E0F30 /* PPMockServerApp.m */; };
+		4FFF91161BF20EEC00E72BE5 /* NSData+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF91141BF20EEC00E72BE5 /* NSData+Hex.m */; };
+		4FFF91171BF20EEC00E72BE5 /* NSData+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF91141BF20EEC00E72BE5 /* NSData+Hex.m */; };
+		4FFF91181BF20EEC00E72BE5 /* NSData+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF91141BF20EEC00E72BE5 /* NSData+Hex.m */; };
+		A440CA2E1BE1641A007F3A36 /* TIBColleagueAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A440CA2D1BE1641A007F3A36 /* TIBColleagueAppTests.m */; };
+		A440CA391BE1641A007F3A36 /* TIBColleagueAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A440CA381BE1641A007F3A36 /* TIBColleagueAppUITests.m */; };
+		A49392BB1BE2846C0082F7C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A440CA961BE16DA4007F3A36 /* ViewController.m */; };
+		A49392BC1BE2846C0082F7C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A440CA891BE16DA4007F3A36 /* main.m */; };
+		A49392BD1BE2846C0082F7C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A440CA871BE16DA4007F3A36 /* AppDelegate.m */; };
+		A49392C41BE2846C0082F7C6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A440CB151BE220FF007F3A36 /* Localizable.strings */; };
+		A49392C51BE2846C0082F7C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A440CA8B1BE16DA4007F3A36 /* LaunchScreen.storyboard */; };
+		A49392C61BE2846C0082F7C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A440CB071BE21EFB007F3A36 /* Assets.xcassets */; };
+		A49392D01BE285330082F7C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A440CA961BE16DA4007F3A36 /* ViewController.m */; };
+		A49392D11BE285330082F7C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A440CA891BE16DA4007F3A36 /* main.m */; };
+		A49392D21BE285330082F7C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A440CA871BE16DA4007F3A36 /* AppDelegate.m */; };
+		A49392D71BE285330082F7C6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A440CB111BE220E6007F3A36 /* Localizable.strings */; };
+		A49392DB1BE285330082F7C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A440CA8B1BE16DA4007F3A36 /* LaunchScreen.storyboard */; };
+		A49392DC1BE285330082F7C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A440CB071BE21EFB007F3A36 /* Assets.xcassets */; };
+		A49392E61BE2859F0082F7C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A440CA961BE16DA4007F3A36 /* ViewController.m */; };
+		A49392E71BE2859F0082F7C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A440CA891BE16DA4007F3A36 /* main.m */; };
+		A49392E81BE2859F0082F7C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A440CA871BE16DA4007F3A36 /* AppDelegate.m */; };
+		A49392EE1BE2859F0082F7C6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A440CB131BE220F3007F3A36 /* Localizable.strings */; };
+		A49392F11BE2859F0082F7C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A440CA8B1BE16DA4007F3A36 /* LaunchScreen.storyboard */; };
+		A49392F31BE2859F0082F7C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A440CB071BE21EFB007F3A36 /* Assets.xcassets */; };
+		A4BAF9F71C026E1D00F0D28F /* TIBKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BAF9F61C026E1D00F0D28F /* TIBKit.framework */; };
+		A4BAF9F81C026E1D00F0D28F /* TIBKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A4BAF9F61C026E1D00F0D28F /* TIBKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A4BAF9F91C026E2900F0D28F /* TIBKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BAF9F61C026E1D00F0D28F /* TIBKit.framework */; };
+		A4BAF9FA1C026E2900F0D28F /* TIBKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A4BAF9F61C026E1D00F0D28F /* TIBKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A4BAF9FB1C026E3100F0D28F /* TIBKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BAF9F61C026E1D00F0D28F /* TIBKit.framework */; };
+		A4BAF9FC1C026E3100F0D28F /* TIBKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A4BAF9F61C026E1D00F0D28F /* TIBKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A4CE02FD1BF3A3B6002E5E5B /* SoftwareUpdateAppV1.11.16.ipa in Resources */ = {isa = PBXBuildFile; fileRef = A4CE02FB1BF3A3B6002E5E5B /* SoftwareUpdateAppV1.11.16.ipa */; };
+		A4CE02FE1BF3A3B6002E5E5B /* SoftwareUpdateAppV1.11.16.ipa in Resources */ = {isa = PBXBuildFile; fileRef = A4CE02FB1BF3A3B6002E5E5B /* SoftwareUpdateAppV1.11.16.ipa */; };
+		A4CE02FF1BF3A3B6002E5E5B /* SoftwareUpdateAppV1.11.16.ipa in Resources */ = {isa = PBXBuildFile; fileRef = A4CE02FB1BF3A3B6002E5E5B /* SoftwareUpdateAppV1.11.16.ipa */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4F1D13451BFB453B00241FAF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A4BAF9F81C026E1D00F0D28F /* TIBKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F91E1A01BF3933200C06009 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A4BAF9FA1C026E2900F0D28F /* TIBKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F91E1A31BF3933A00C06009 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A4BAF9FC1C026E3100F0D28F /* TIBKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4F91E1821BF3509F00C06009 /* PowaPINDriver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PowaPINDriver.framework; sourceTree = SOURCE_ROOT; };
+		4F91E1831BF3509F00C06009 /* PowaPINSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PowaPINSDK.framework; sourceTree = SOURCE_ROOT; };
+		4F91E1961BF3927800C06009 /* Branding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Branding.h; sourceTree = "<group>"; };
+		4F91E1971BF3927800C06009 /* Branding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Branding.m; sourceTree = "<group>"; };
+		4FB4A1961BF4A42C007A19FB /* CLAuthenticationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLAuthenticationViewController.h; sourceTree = "<group>"; };
+		4FB4A1971BF4A42C007A19FB /* CLAuthenticationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLAuthenticationViewController.m; sourceTree = "<group>"; };
+		4FB4A1981BF4A42C007A19FB /* CLPowaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPowaViewController.h; sourceTree = "<group>"; };
+		4FB4A1991BF4A42C007A19FB /* CLPowaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPowaViewController.m; sourceTree = "<group>"; };
+		4FB4A19A1BF4A42C007A19FB /* ColleagueApp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ColleagueApp.storyboard; sourceTree = "<group>"; };
+		4FC0589B1BF20834000E0F30 /* PPMockServerApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPMockServerApp.h; sourceTree = "<group>"; };
+		4FC0589C1BF20834000E0F30 /* PPMockServerApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPMockServerApp.m; sourceTree = "<group>"; };
+		4FFF91141BF20EEC00E72BE5 /* NSData+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Hex.m"; sourceTree = "<group>"; };
+		4FFF911F1BF20F4C00E72BE5 /* NSData+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Hex.h"; sourceTree = "<group>"; };
+		A440CA291BE1641A007F3A36 /* TIBColleagueAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TIBColleagueAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A440CA2D1BE1641A007F3A36 /* TIBColleagueAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TIBColleagueAppTests.m; sourceTree = "<group>"; };
+		A440CA2F1BE1641A007F3A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A440CA341BE1641A007F3A36 /* TIBColleagueAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TIBColleagueAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A440CA381BE1641A007F3A36 /* TIBColleagueAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TIBColleagueAppUITests.m; sourceTree = "<group>"; };
+		A440CA3A1BE1641A007F3A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A440CA861BE16DA4007F3A36 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A440CA871BE16DA4007F3A36 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A440CA891BE16DA4007F3A36 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A440CA8C1BE16DA4007F3A36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A440CA951BE16DA4007F3A36 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A440CA961BE16DA4007F3A36 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A440CA9F1BE16E10007F3A36 /* ColleagueApp-STUB-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ColleagueApp-STUB-Info.plist"; sourceTree = "<group>"; };
+		A440CB031BE21EFB007F3A36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A440CB051BE21EFB007F3A36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A440CB071BE21EFB007F3A36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A440CB111BE220E6007F3A36 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		A440CB131BE220F3007F3A36 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		A440CB151BE220FF007F3A36 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		A462A1D51BF20592002A05E6 /* LloydsConfiguration.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = LloydsConfiguration.xcconfig; sourceTree = "<group>"; };
+		A462A1D61BF205B5002A05E6 /* BOSConfiguration.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BOSConfiguration.xcconfig; sourceTree = "<group>"; };
+		A462A1D71BF205CD002A05E6 /* HalifaxConfiguration.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = HalifaxConfiguration.xcconfig; sourceTree = "<group>"; };
+		A49392CA1BE2846C0082F7C6 /* CL-Lloyds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CL-Lloyds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A49392E01BE285330082F7C6 /* CL-BOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CL-BOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A49392F71BE2859F0082F7C6 /* CL-Halifax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CL-Halifax.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A49392F91BE285E80082F7C6 /* CL-BOS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CL-BOS-Info.plist"; sourceTree = "<group>"; };
+		A49392FA1BE285E80082F7C6 /* CL-Halifax-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CL-Halifax-Info.plist"; sourceTree = "<group>"; };
+		A49392FB1BE285E80082F7C6 /* CL-Lloyds-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CL-Lloyds-Info.plist"; sourceTree = "<group>"; };
+		A4BAF9F61C026E1D00F0D28F /* TIBKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = TIBKit.framework; path = "/Users/developer01/Workspace/Tablet-InBranch/TIB-iOS/Build/Products/Debug-iphoneos/TIBKit.framework"; sourceTree = "<absolute>"; };
+		A4CE02FB1BF3A3B6002E5E5B /* SoftwareUpdateAppV1.11.16.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = SoftwareUpdateAppV1.11.16.ipa; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A440CA261BE1641A007F3A36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A440CA311BE1641A007F3A36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A49392BE1BE2846C0082F7C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F91E1891BF3509F00C06009 /* PowaPINSDK.framework in Frameworks */,
+				A4BAF9F71C026E1D00F0D28F /* TIBKit.framework in Frameworks */,
+				4F91E1851BF3509F00C06009 /* PowaPINDriver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A49392D31BE285330082F7C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F91E1861BF3509F00C06009 /* PowaPINDriver.framework in Frameworks */,
+				A4BAF9F91C026E2900F0D28F /* TIBKit.framework in Frameworks */,
+				4F91E18A1BF3509F00C06009 /* PowaPINSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A49392E91BE2859F0082F7C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F91E1871BF3509F00C06009 /* PowaPINDriver.framework in Frameworks */,
+				A4BAF9FB1C026E3100F0D28F /* TIBKit.framework in Frameworks */,
+				4F91E18B1BF3509F00C06009 /* PowaPINSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F91E1951BF3927800C06009 /* Branding */ = {
+			isa = PBXGroup;
+			children = (
+				4F91E1961BF3927800C06009 /* Branding.h */,
+				4F91E1971BF3927800C06009 /* Branding.m */,
+			);
+			path = Branding;
+			sourceTree = "<group>";
+		};
+		4FB4A1951BF4A42C007A19FB /* ColleagueAuthenticationController */ = {
+			isa = PBXGroup;
+			children = (
+				4FB4A1961BF4A42C007A19FB /* CLAuthenticationViewController.h */,
+				4FB4A1971BF4A42C007A19FB /* CLAuthenticationViewController.m */,
+				4FB4A1981BF4A42C007A19FB /* CLPowaViewController.h */,
+				4FB4A1991BF4A42C007A19FB /* CLPowaViewController.m */,
+				4FB4A19A1BF4A42C007A19FB /* ColleagueApp.storyboard */,
+			);
+			path = ColleagueAuthenticationController;
+			sourceTree = "<group>";
+		};
+		4FC0589A1BF20816000E0F30 /* PowaMockServer */ = {
+			isa = PBXGroup;
+			children = (
+				4FC0589B1BF20834000E0F30 /* PPMockServerApp.h */,
+				4FFF911F1BF20F4C00E72BE5 /* NSData+Hex.h */,
+				4FFF91141BF20EEC00E72BE5 /* NSData+Hex.m */,
+				4FC0589C1BF20834000E0F30 /* PPMockServerApp.m */,
+			);
+			name = PowaMockServer;
+			sourceTree = "<group>";
+		};
+		A426692E1BE26BB20055BAD8 /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				A49392F91BE285E80082F7C6 /* CL-BOS-Info.plist */,
+				A49392FA1BE285E80082F7C6 /* CL-Halifax-Info.plist */,
+				A49392FB1BE285E80082F7C6 /* CL-Lloyds-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		A440CA071BE1641A007F3A36 = {
+			isa = PBXGroup;
+			children = (
+				A440CA121BE1641A007F3A36 /* TIBColleagueApp */,
+				A440CA2C1BE1641A007F3A36 /* TIBColleagueAppTests */,
+				A440CA371BE1641A007F3A36 /* TIBColleagueAppUITests */,
+				A440CA111BE1641A007F3A36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A440CA111BE1641A007F3A36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A440CA291BE1641A007F3A36 /* TIBColleagueAppTests.xctest */,
+				A440CA341BE1641A007F3A36 /* TIBColleagueAppUITests.xctest */,
+				A49392CA1BE2846C0082F7C6 /* CL-Lloyds.app */,
+				A49392E01BE285330082F7C6 /* CL-BOS.app */,
+				A49392F71BE2859F0082F7C6 /* CL-Halifax.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A440CA121BE1641A007F3A36 /* TIBColleagueApp */ = {
+			isa = PBXGroup;
+			children = (
+				4F91E1951BF3927800C06009 /* Branding */,
+				4FC0589A1BF20816000E0F30 /* PowaMockServer */,
+				A440CA851BE16DA4007F3A36 /* Application */,
+				A426692E1BE26BB20055BAD8 /* InfoPlists */,
+				A440CA941BE16DA4007F3A36 /* ViewControllers */,
+				A440CA8A1BE16DA4007F3A36 /* Base.lproj */,
+				A440CA8F1BE16DA4007F3A36 /* Entitlements */,
+				A440CA901BE16DA4007F3A36 /* Frameworks */,
+				A440CA911BE16DA4007F3A36 /* Models */,
+				A440CA921BE16DA4007F3A36 /* Resources */,
+				A440CA971BE16DA4007F3A36 /* Views */,
+				A440CA131BE1641A007F3A36 /* Supporting Files */,
+			);
+			path = TIBColleagueApp;
+			sourceTree = "<group>";
+		};
+		A440CA131BE1641A007F3A36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A440CA2C1BE1641A007F3A36 /* TIBColleagueAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A440CA2D1BE1641A007F3A36 /* TIBColleagueAppTests.m */,
+				A440CA2F1BE1641A007F3A36 /* Info.plist */,
+			);
+			path = TIBColleagueAppTests;
+			sourceTree = "<group>";
+		};
+		A440CA371BE1641A007F3A36 /* TIBColleagueAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A440CA381BE1641A007F3A36 /* TIBColleagueAppUITests.m */,
+				A440CA3A1BE1641A007F3A36 /* Info.plist */,
+			);
+			path = TIBColleagueAppUITests;
+			sourceTree = "<group>";
+		};
+		A440CA851BE16DA4007F3A36 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				A440CA861BE16DA4007F3A36 /* AppDelegate.h */,
+				A440CA871BE16DA4007F3A36 /* AppDelegate.m */,
+				A440CA9F1BE16E10007F3A36 /* ColleagueApp-STUB-Info.plist */,
+				A440CA891BE16DA4007F3A36 /* main.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		A440CA8A1BE16DA4007F3A36 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				A440CA8B1BE16DA4007F3A36 /* LaunchScreen.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		A440CA8F1BE16DA4007F3A36 /* Entitlements */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entitlements;
+			sourceTree = "<group>";
+		};
+		A440CA901BE16DA4007F3A36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4BAF9F61C026E1D00F0D28F /* TIBKit.framework */,
+				A4CE02FA1BF3A3B6002E5E5B /* PowaFirmware */,
+				4F91E1821BF3509F00C06009 /* PowaPINDriver.framework */,
+				4F91E1831BF3509F00C06009 /* PowaPINSDK.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		A440CA911BE16DA4007F3A36 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A440CA921BE16DA4007F3A36 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A440CB061BE21EFB007F3A36 /* CL-Lloyds */,
+				A440CB021BE21EFB007F3A36 /* CL-BOS */,
+				A440CB041BE21EFB007F3A36 /* CL-Halifax */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A440CA941BE16DA4007F3A36 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4FB4A1951BF4A42C007A19FB /* ColleagueAuthenticationController */,
+				A440CA951BE16DA4007F3A36 /* ViewController.h */,
+				A440CA961BE16DA4007F3A36 /* ViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A440CA971BE16DA4007F3A36 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A440CB021BE21EFB007F3A36 /* CL-BOS */ = {
+			isa = PBXGroup;
+			children = (
+				A440CB111BE220E6007F3A36 /* Localizable.strings */,
+				A440CB031BE21EFB007F3A36 /* Assets.xcassets */,
+				A462A1D61BF205B5002A05E6 /* BOSConfiguration.xcconfig */,
+			);
+			path = "CL-BOS";
+			sourceTree = "<group>";
+		};
+		A440CB041BE21EFB007F3A36 /* CL-Halifax */ = {
+			isa = PBXGroup;
+			children = (
+				A440CB131BE220F3007F3A36 /* Localizable.strings */,
+				A440CB051BE21EFB007F3A36 /* Assets.xcassets */,
+				A462A1D71BF205CD002A05E6 /* HalifaxConfiguration.xcconfig */,
+			);
+			path = "CL-Halifax";
+			sourceTree = "<group>";
+		};
+		A440CB061BE21EFB007F3A36 /* CL-Lloyds */ = {
+			isa = PBXGroup;
+			children = (
+				A440CB151BE220FF007F3A36 /* Localizable.strings */,
+				A440CB071BE21EFB007F3A36 /* Assets.xcassets */,
+				A462A1D51BF20592002A05E6 /* LloydsConfiguration.xcconfig */,
+			);
+			path = "CL-Lloyds";
+			sourceTree = "<group>";
+		};
+		A4CE02FA1BF3A3B6002E5E5B /* PowaFirmware */ = {
+			isa = PBXGroup;
+			children = (
+				A4CE02FB1BF3A3B6002E5E5B /* SoftwareUpdateAppV1.11.16.ipa */,
+			);
+			path = PowaFirmware;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A440CA281BE1641A007F3A36 /* TIBColleagueAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A440CA401BE1641A007F3A36 /* Build configuration list for PBXNativeTarget "TIBColleagueAppTests" */;
+			buildPhases = (
+				A440CA251BE1641A007F3A36 /* Sources */,
+				A440CA261BE1641A007F3A36 /* Frameworks */,
+				A440CA271BE1641A007F3A36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TIBColleagueAppTests;
+			productName = TIBColleagueAppTests;
+			productReference = A440CA291BE1641A007F3A36 /* TIBColleagueAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A440CA331BE1641A007F3A36 /* TIBColleagueAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A440CA431BE1641A007F3A36 /* Build configuration list for PBXNativeTarget "TIBColleagueAppUITests" */;
+			buildPhases = (
+				A440CA301BE1641A007F3A36 /* Sources */,
+				A440CA311BE1641A007F3A36 /* Frameworks */,
+				A440CA321BE1641A007F3A36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TIBColleagueAppUITests;
+			productName = TIBColleagueAppUITests;
+			productReference = A440CA341BE1641A007F3A36 /* TIBColleagueAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A49392B91BE2846C0082F7C6 /* CL-Lloyds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A49392C71BE2846C0082F7C6 /* Build configuration list for PBXNativeTarget "CL-Lloyds" */;
+			buildPhases = (
+				A49392BA1BE2846C0082F7C6 /* Sources */,
+				A49392BE1BE2846C0082F7C6 /* Frameworks */,
+				A49392C01BE2846C0082F7C6 /* Resources */,
+				4F1D13451BFB453B00241FAF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CL-Lloyds";
+			productName = TIBColleagueApp;
+			productReference = A49392CA1BE2846C0082F7C6 /* CL-Lloyds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A49392CE1BE285330082F7C6 /* CL-BOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A49392DD1BE285330082F7C6 /* Build configuration list for PBXNativeTarget "CL-BOS" */;
+			buildPhases = (
+				A49392CF1BE285330082F7C6 /* Sources */,
+				A49392D31BE285330082F7C6 /* Frameworks */,
+				A49392D51BE285330082F7C6 /* Resources */,
+				4F91E1A01BF3933200C06009 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CL-BOS";
+			productName = TIBColleagueApp;
+			productReference = A49392E01BE285330082F7C6 /* CL-BOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A49392E41BE2859F0082F7C6 /* CL-Halifax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A49392F41BE2859F0082F7C6 /* Build configuration list for PBXNativeTarget "CL-Halifax" */;
+			buildPhases = (
+				A49392E51BE2859F0082F7C6 /* Sources */,
+				A49392E91BE2859F0082F7C6 /* Frameworks */,
+				A49392EB1BE2859F0082F7C6 /* Resources */,
+				4F91E1A31BF3933A00C06009 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CL-Halifax";
+			productName = TIBColleagueApp;
+			productReference = A49392F71BE2859F0082F7C6 /* CL-Halifax.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A440CA081BE1641A007F3A36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Rupendra;
+				TargetAttributes = {
+					A440CA281BE1641A007F3A36 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A440CA0F1BE1641A007F3A36;
+					};
+					A440CA331BE1641A007F3A36 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A440CA0F1BE1641A007F3A36;
+					};
+					A49392B91BE2846C0082F7C6 = {
+						DevelopmentTeam = S5QNBU5SFL;
+					};
+				};
+			};
+			buildConfigurationList = A440CA0B1BE1641A007F3A36 /* Build configuration list for PBXProject "TIBColleagueApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A440CA071BE1641A007F3A36;
+			productRefGroup = A440CA111BE1641A007F3A36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A440CA281BE1641A007F3A36 /* TIBColleagueAppTests */,
+				A440CA331BE1641A007F3A36 /* TIBColleagueAppUITests */,
+				A49392B91BE2846C0082F7C6 /* CL-Lloyds */,
+				A49392CE1BE285330082F7C6 /* CL-BOS */,
+				A49392E41BE2859F0082F7C6 /* CL-Halifax */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A440CA271BE1641A007F3A36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A440CA321BE1641A007F3A36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A49392C01BE2846C0082F7C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4CE02FD1BF3A3B6002E5E5B /* SoftwareUpdateAppV1.11.16.ipa in Resources */,
+				4FB4A1A41BF4A42C007A19FB /* ColleagueApp.storyboard in Resources */,
+				A49392C41BE2846C0082F7C6 /* Localizable.strings in Resources */,
+				A49392C51BE2846C0082F7C6 /* LaunchScreen.storyboard in Resources */,
+				A49392C61BE2846C0082F7C6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A49392D51BE285330082F7C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4CE02FE1BF3A3B6002E5E5B /* SoftwareUpdateAppV1.11.16.ipa in Resources */,
+				4FB4A1A51BF4A42C007A19FB /* ColleagueApp.storyboard in Resources */,
+				A49392D71BE285330082F7C6 /* Localizable.strings in Resources */,
+				A49392DB1BE285330082F7C6 /* LaunchScreen.storyboard in Resources */,
+				A49392DC1BE285330082F7C6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A49392EB1BE2859F0082F7C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4CE02FF1BF3A3B6002E5E5B /* SoftwareUpdateAppV1.11.16.ipa in Resources */,
+				4FB4A1A61BF4A42C007A19FB /* ColleagueApp.storyboard in Resources */,
+				A49392EE1BE2859F0082F7C6 /* Localizable.strings in Resources */,
+				A49392F11BE2859F0082F7C6 /* LaunchScreen.storyboard in Resources */,
+				A49392F31BE2859F0082F7C6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A440CA251BE1641A007F3A36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A440CA2E1BE1641A007F3A36 /* TIBColleagueAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A440CA301BE1641A007F3A36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A440CA391BE1641A007F3A36 /* TIBColleagueAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A49392BA1BE2846C0082F7C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A49392BB1BE2846C0082F7C6 /* ViewController.m in Sources */,
+				4FFF91161BF20EEC00E72BE5 /* NSData+Hex.m in Sources */,
+				4F91E1991BF3927800C06009 /* Branding.m in Sources */,
+				A49392BC1BE2846C0082F7C6 /* main.m in Sources */,
+				A49392BD1BE2846C0082F7C6 /* AppDelegate.m in Sources */,
+				4FB4A19C1BF4A42C007A19FB /* CLAuthenticationViewController.m in Sources */,
+				4FB4A1A01BF4A42C007A19FB /* CLPowaViewController.m in Sources */,
+				4FC0589E1BF20834000E0F30 /* PPMockServerApp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A49392CF1BE285330082F7C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A49392D01BE285330082F7C6 /* ViewController.m in Sources */,
+				4FFF91171BF20EEC00E72BE5 /* NSData+Hex.m in Sources */,
+				4F91E19A1BF3927800C06009 /* Branding.m in Sources */,
+				A49392D11BE285330082F7C6 /* main.m in Sources */,
+				A49392D21BE285330082F7C6 /* AppDelegate.m in Sources */,
+				4FB4A19D1BF4A42C007A19FB /* CLAuthenticationViewController.m in Sources */,
+				4FB4A1A11BF4A42C007A19FB /* CLPowaViewController.m in Sources */,
+				4FC0589F1BF20834000E0F30 /* PPMockServerApp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A49392E51BE2859F0082F7C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A49392E61BE2859F0082F7C6 /* ViewController.m in Sources */,
+				4FFF91181BF20EEC00E72BE5 /* NSData+Hex.m in Sources */,
+				4F91E19B1BF3927800C06009 /* Branding.m in Sources */,
+				A49392E71BE2859F0082F7C6 /* main.m in Sources */,
+				A49392E81BE2859F0082F7C6 /* AppDelegate.m in Sources */,
+				4FB4A19E1BF4A42C007A19FB /* CLAuthenticationViewController.m in Sources */,
+				4FB4A1A21BF4A42C007A19FB /* CLPowaViewController.m in Sources */,
+				4FC058A01BF20834000E0F30 /* PPMockServerApp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A440CA8B1BE16DA4007F3A36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A440CA8C1BE16DA4007F3A36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A440CA3B1BE1641A007F3A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A440CA3C1BE1641A007F3A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A440CA411BE1641A007F3A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TIBColleagueAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lloyds.bank.TIBColleagueAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TIBColleagueApp.app/TIBColleagueApp";
+			};
+			name = Debug;
+		};
+		A440CA421BE1641A007F3A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TIBColleagueAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lloyds.bank.TIBColleagueAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TIBColleagueApp.app/TIBColleagueApp";
+			};
+			name = Release;
+		};
+		A440CA441BE1641A007F3A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TIBColleagueAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lloyds.bank.TIBColleagueAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TIBColleagueApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A440CA451BE1641A007F3A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TIBColleagueAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lloyds.bank.TIBColleagueAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TIBColleagueApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		A49392C81BE2846C0082F7C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A462A1D51BF20592002A05E6 /* LloydsConfiguration.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/TIBColleagueApp/InfoPlists/CL-Lloyds-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lloyds.bank.TIBColleagueApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		A49392C91BE2846C0082F7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A462A1D51BF20592002A05E6 /* LloydsConfiguration.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/TIBColleagueApp/InfoPlists/CL-Lloyds-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lloyds.bank.TIBColleagueApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		A49392DE1BE285330082F7C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A462A1D61BF205B5002A05E6 /* BOSConfiguration.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/TIBColleagueApp/InfoPlists/CL-BOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lloyds.bank.TIBColleagueApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A49392DF1BE285330082F7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A462A1D61BF205B5002A05E6 /* BOSConfiguration.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/TIBColleagueApp/InfoPlists/CL-BOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lloyds.bank.TIBColleagueApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A49392F51BE2859F0082F7C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A462A1D71BF205CD002A05E6 /* HalifaxConfiguration.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/TIBColleagueApp/InfoPlists/CL-Halifax-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lloyds.bank.TIBColleagueApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A49392F61BE2859F0082F7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A462A1D71BF205CD002A05E6 /* HalifaxConfiguration.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/TIBColleagueApp/InfoPlists/CL-Halifax-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lloyds.bank.TIBColleagueApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A440CA0B1BE1641A007F3A36 /* Build configuration list for PBXProject "TIBColleagueApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A440CA3B1BE1641A007F3A36 /* Debug */,
+				A440CA3C1BE1641A007F3A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A440CA401BE1641A007F3A36 /* Build configuration list for PBXNativeTarget "TIBColleagueAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A440CA411BE1641A007F3A36 /* Debug */,
+				A440CA421BE1641A007F3A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A440CA431BE1641A007F3A36 /* Build configuration list for PBXNativeTarget "TIBColleagueAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A440CA441BE1641A007F3A36 /* Debug */,
+				A440CA451BE1641A007F3A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A49392C71BE2846C0082F7C6 /* Build configuration list for PBXNativeTarget "CL-Lloyds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A49392C81BE2846C0082F7C6 /* Debug */,
+				A49392C91BE2846C0082F7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A49392DD1BE285330082F7C6 /* Build configuration list for PBXNativeTarget "CL-BOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A49392DE1BE285330082F7C6 /* Debug */,
+				A49392DF1BE285330082F7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A49392F41BE2859F0082F7C6 /* Build configuration list for PBXNativeTarget "CL-Halifax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A49392F51BE2859F0082F7C6 /* Debug */,
+				A49392F61BE2859F0082F7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A440CA081BE1641A007F3A36 /* Project object */;
+}

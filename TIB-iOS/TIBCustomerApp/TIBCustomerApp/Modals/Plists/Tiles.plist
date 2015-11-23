@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Current  Accounts</string>
+		<key>subtitle</key>
+		<string>Internet Banking</string>
+		<key>image</key>
+		<string>card_icon</string>
+		<key>bgColor</key>
+		<string>#71A618</string>
+		<key>Width</key>
+		<string>3</string>
+		<key>Height</key>
+		<string>3</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Credit Cards</string>
+		<key>subtitle</key>
+		<string>Internet Banking</string>
+		<key>image</key>
+		<string>card_icon</string>
+		<key>bgColor</key>
+		<string>#49ba70</string>
+		<key>Width</key>
+		<string>3</string>
+		<key>Height</key>
+		<string>3</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Savings</string>
+		<key>subtitle</key>
+		<string>Internet Banking</string>
+		<key>image</key>
+		<string>button-product-home</string>
+		<key>bgColor</key>
+		<string>#D94F68</string>
+		<key>Width</key>
+		<string>3</string>
+		<key>Height</key>
+		<string>3</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Insurance</string>
+		<key>subtitle</key>
+		<string>Internet Banking</string>
+		<key>image</key>
+		<string>card_icon</string>
+		<key>bgColor</key>
+		<string>#758082</string>
+		<key>Width</key>
+		<string>3</string>
+		<key>Height</key>
+		<string>3</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Loans</string>
+		<key>subtitle</key>
+		<string>Internet Banking</string>
+		<key>image</key>
+		<string>button-product-home</string>
+		<key>bgColor</key>
+		<string>#2464A1</string>
+		<key>Width</key>
+		<string>3</string>
+		<key>Height</key>
+		<string>3</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Investments</string>
+		<key>subtitle</key>
+		<string>Internet Banking</string>
+		<key>image</key>
+		<string>button-product-home</string>
+		<key>bgColor</key>
+		<string>#ffa23c</string>
+		<key>Width</key>
+		<string>3</string>
+		<key>Height</key>
+		<string>3</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Mortgages</string>
+		<key>subtitle</key>
+		<string>Internet Banking</string>
+		<key>image</key>
+		<string>button-product-home</string>
+		<key>bgColor</key>
+		<string>#D94F68</string>
+		<key>Width</key>
+		<string>3</string>
+		<key>Height</key>
+		<string>3</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Wealth</string>
+		<key>subtitle</key>
+		<string>Internet Banking</string>
+		<key>image</key>
+		<string>button-product-home</string>
+		<key>bgColor</key>
+		<string>#af62ff</string>
+		<key>Width</key>
+		<string>3</string>
+		<key>Height</key>
+		<string>3</string>
+	</dict>
+</array>
+</plist>

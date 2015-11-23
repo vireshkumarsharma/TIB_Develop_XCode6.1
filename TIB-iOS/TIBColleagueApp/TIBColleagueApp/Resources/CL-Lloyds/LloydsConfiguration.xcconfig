@@ -1,0 +1,9 @@
+//
+//  LloydsConfiguration.xcconfig
+//  TIBColleagueApp
+//
+//  Created by Mobile Developer Lloyds Bank on 10/11/2015.
+//  Copyright © 2015 Rupendra. All rights reserved.
+//
+
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) LLO=1

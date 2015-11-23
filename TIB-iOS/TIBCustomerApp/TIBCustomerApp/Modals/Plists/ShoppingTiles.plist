@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Check your balance</string>
+		<key>subtitle</key>
+		<string>Check your balance, pending transactions and imminent transactions on the bus so you know how much you can spend before you get to the shops.</string>
+		<key>imageForRight</key>
+		<string>tileIcon.png</string>
+		<key>imageForIcon</key>
+		<string>mouseIcon.png</string>
+		<key>bgColor</key>
+		<string>#DB4F69</string>
+		<key>Width</key>
+		<string>5</string>
+		<key>Height</key>
+		<string>2</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Check your balance</string>
+		<key>subtitle</key>
+		<string>Check your balance, pending transactions and imminent transactions on the bus so you know how much you can spend before you get to the shops.</string>
+		<key>imageForRight</key>
+		<string>tileIcon.png</string>
+		<key>imageForIcon</key>
+		<string>mouseIcon.png</string>
+		<key>bgColor</key>
+		<string>#DB4F69</string>
+		<key>Width</key>
+		<string>5</string>
+		<key>Height</key>
+		<string>2</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Check your balance</string>
+		<key>subtitle</key>
+		<string>Check your balance, pending transactions and imminent transactions on the bus so you know how much you can spend before you get to the shops.</string>
+		<key>imageForRight</key>
+		<string>tileIcon.png</string>
+		<key>imageForIcon</key>
+		<string>mouseIcon.png</string>
+		<key>bgColor</key>
+		<string>#DB4F69</string>
+		<key>Width</key>
+		<string>5</string>
+		<key>Height</key>
+		<string>2</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Check your balance</string>
+		<key>subtitle</key>
+		<string>Check your balance, pending transactions and imminent transactions on the bus so you know how much you can spend before you get to the shops.</string>
+		<key>imageForRight</key>
+		<string>tileIcon.png</string>
+		<key>imageForIcon</key>
+		<string>mouseIcon.png</string>
+		<key>bgColor</key>
+		<string>#DB4F69</string>
+		<key>Width</key>
+		<string>5</string>
+		<key>Height</key>
+		<string>2</string>
+	</dict>
+</array>
+</plist>
